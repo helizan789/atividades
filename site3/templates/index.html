@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Transmissão de Informação</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h2>Método 1 - GET</h2>
+
+    <form  action="/dados_pessoais/" method="GET">
+
+        <p> Nome: <input type="text" name="nome"></p>
+        <p> E-mail: <input type="text" name="e-mail"></p>
+        <p> Telefone: <input type="text" name="telefone"></p>
+
+        <p> <input type="submit" value="enviar"> </p>
+    </form>
+	
+	<h2>Método 2 - POST</h2>
+
+    <form  action="/dados_pessoais/" method="POST">
+
+        <p> Nome: <input type="text" name="nome"></p>
+        <p> E-mail: <input type="text" name="e-mail"></p>
+        <p> Telefone: <input type="text" name="telefone"></p>
+
+        <p> <input type="submit" value="enviar"> </p>
+    </form>
+
+	<h2>Método 3 - pela estrutura da URL</h2>
+	<p><a href="/dados_pessoais/Joao/joao@gmail.com/9999-6666">Joao</a></p>
+	<p><a href="/dados_pessoais/Maria/maria@gmail.com/9999-6666">Maria</a></p>
+	<p><a href="/dados_pessoais/José/josé@gmail.com/9999-6666">José</a></p>
+
+  </body>
+</html>
